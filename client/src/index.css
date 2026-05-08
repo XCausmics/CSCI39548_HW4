@@ -1,0 +1,72 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #242424;
+  color: #1a1a1a;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  margin-bottom: 36px;
+  color: white;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  margin: 24px 0 12px;
+  color: white;
+}
+
+button {
+  margin-right: 8px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family: inherit;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  border: black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #929292;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 20px;
+}
+
+td:first-child {
+  color: #ffffff;
+}
+
+td:last-child {
+  font-weight: 600;
+  text-align: right;
+}
+
+p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.minutes-label {
+  margin-bottom: 36px;
+}
