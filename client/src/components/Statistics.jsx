@@ -4,7 +4,7 @@ const Statistics = ({cardio, upper, lower, rest}) => {
     const total = cardio + upper + lower
 
     if (total === 0 && rest === 0) {
-        return <p> No workouts recorded </p>
+        return <p class="no-workouts"> No workouts recorded </p>
     }
 
     return (

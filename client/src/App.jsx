@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div class="app-container">
       <h1>Workout Tracker</h1>
 
       
